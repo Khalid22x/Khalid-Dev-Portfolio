@@ -691,3 +691,7 @@ body.dark-mode .theme-toggle-btn .fa-moon {
     }
     
 }
+/* Add this to your style.css for better button icons */
+.btn-secondary i {
+    margin-right: 8px; /* Adds a small space between the icon and the text */
+}

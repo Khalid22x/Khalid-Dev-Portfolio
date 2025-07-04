@@ -51,13 +51,13 @@ Clone the repository:
 
 Bash
 
-git clone https://github.com/Khalid22x/Khalid-portfolio.git
+git clone
 cd Khalid-portfolio
 Open index.html: Simply open the index.html file in your web browser to view the portfolio locally.
 
 Live Demo:
 You can view the live version of my portfolio here:
-[Your GitHub Pages URL, e.g., https://Khalid22x.github.io/Khalid-portfolio/ (after deployment)]
+[Your GitHub Pages URL, e.g., (after deployment)]
 
 Contributing:
 This is a personal portfolio project, but suggestions for improvements are always welcome! If you find any issues or have ideas, please feel free to open an issue or a pull request.

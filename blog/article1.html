@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description"
+        content="تفاصيل مشروع تخرجي في الذكاء الاصطناعي، وهو نظام كشف الكائنات في الوقت الفعلي باستخدام Python, OpenCV, و Tensorflow.">
+    <meta name="keywords"
+        content="Object Detection, AI, Computer Vision, Khalid Abd Elhamid, Portfolio, Graduation Project, Tensorflow, OpenCV">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Graduation Project: Building a Real-Time Object Detection System | Khalid's Blog</title>
+    <link rel="stylesheet" href="../style.css">
+    <head>
+    
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+            integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        </head>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="index.html">Khalid Abd Elhamid</a>
+            </div>
+            <div class="nav-right">
+                <ul id="nav-links">
+                    <li><a href="../index.html#hero">Home</a></li>
+                    <li><a href="../index.html#about">About</a></li>
+                    <li><a href="../index.html#projects">Projects</a></li>
+                    <li><a href="../index.html#certificates">Certificates</a></li>
+                    <li><a href="../blog.html">Blog</a></li>
+                    <li><a href="../index.html#contact">Contact</a></li>
+                </ul>
+                <div class="theme-switch-wrapper">
+                    <label class="theme-switch" for="theme-checkbox">
+                        <input type="checkbox" id="theme-checkbox" />
+                        <div class="slider round"></div>
+                    </label>          </div>
+            </div>
+            <div class="hamburger" id="hamburger-button">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>  
+        </nav>
+        </header>
+
+    <main>
+        <section class="content-section">
+            <div class="container">
+                <article class="blog-post-full">
+                    <h1>My Graduation Project: Building a Real-Time Object Detection System</h1>
+
+                    <p class="post-meta">
+                        By Khalid Abd Elhamid Abd El Hafeez | Published on: May , 2024
+                    </p>
+
+                    <img src="../images/ai-detection-result.png"
+                        alt="A screenshot of the object detection model identifying a person and cars."
+                        class="blog-banner-image">
+
+                    <div class="article-content">
+                        <p>Welcome! For my graduation project, I dove into the fascinating field of Artificial
+                            Intelligence to build a real-time object detection system. Computer vision is a critical
+                            branch of technology that allows machines to process images and identify objects within
+                            them, much like humans do. My project focused on creating a system capable of detecting
+                            objects like people and cars in digital images and videos. </p>
+
+                        <blockquote>
+                            "Object detection has widespread applications across various fields of computer vision,
+                            making it a prominent area of research in artificial intelligence."
+                        </blockquote>
+
+                        <h2>The Motivation: Why This Project?</h2>
+                        <p>My primary motivation was an intense passion for learning artificial intelligence techniques.
+                            While researching the topic, I noticed several gaps in existing applications: many had a
+                            poor Graphical User Interface (GUI), some were slow and lacked accuracy, and most paid
+                            applications were not available for mobile. This inspired me to create a system that was not
+                            only functional but also efficient and user-friendly.</p>
+
+                        <h2>My Objectives and Scope</h2>
+                        <p>The main goal was to create a real-time object discovery system that is compact and efficient
+                            enough to run on various devices. To achieve this, the project scope included several key
+                            aims:</p>
+                        <ul>
+                            <li>Implementing a small and fast object detection model. </li>
+                            <li>Creating an object dataset and using it to train the model. </li>
+                            <li>Validating and analyzing techniques to improve both the accuracy and speed of the
+                                detection model. </li>
+                        </ul>
+
+                        <h2>The Technology Stack</h2>
+                        <p>Building this system required a combination of powerful libraries for both the AI model and
+                            the user-facing website. </p>
+
+                        <h3>For the Model:</h3>
+                        <ul>
+                            <li>OpenCV-Python</li>
+                            <li>Tensorflow</li>
+                            <li>Numpy</li>
+                            <li>Pillow</li>
+                            <li>Matplotlib</li>
+                            <li>Easydict</li>
+                        </ul>
+
+                        <h3>For the Website:</h3>
+                        <ul>
+                            <li>Flask</li>
+                            <li>Jinja2</li>
+                            <li>Gunicorn</li>
+                            <li>Werkzeug</li>
+                            <li>Click</li>
+                        </ul>
+
+                        <h2>The Process: From Concept to Classifier</h2>
+                        <p>The project followed a structured plan. The core workflow involved loading the object
+                            detection data, performing image preprocessing, and then using that data to generate and
+                            train the object detector classifier. Once trained, the classifier was serialized and saved
+                            so it could be loaded and applied to new test data from images, videos, or a live camera
+                            stream. The system was designed to allow a user to load an image or open a camera to detect
+                            objects in real-time. </p>
+                        <p>Below is a screenshot of the web application successfully identifying objects in an uploaded
+                            image. </p>
+                        <img src="../images/object-detection-image-2 (2).png"
+                            alt="The web application interface showing an image with multiple detected objects like people and chairs."
+                            class="blog-banner-image">
+
+                        <h2>Putting the Model to the Test</h2>
+                        <p>I conducted several tests to validate the model's effectiveness under different
+                            circumstances. The model performed effectively when detecting objects in standard pictures,
+                            videos, and even in real-time via a camera feed. It also succeeded in detecting objects in
+                            black and white photos. </p>
+                        <p>However, one key learning experience came from a test case that was marked "Ineffective": the
+                            model struggled with detecting objects in pictures taken from a great distance. This
+                            highlighted a clear area for future improvement and a deeper understanding of the model's
+                            limitations.</p>
+
+                        <h2>Future Plans and Enhancements</h2>
+                        <p>This project serves as a strong foundation, and I have several ideas for future work to make
+                            it even more robust and versatile. My plans include:</p>
+                        <ul>
+                            <li>Developing a mobile app version of the application. </li>
+                            <li>Connecting the system to specialized hardware for dedicated performance. </li>
+                            <li>Expanding the model into a complete self-sufficiency system that includes face and
+                                traffic light recognition. </li>
+                            <li>Adding a night vision mode to enable visual tracking in low-light conditions. </li>
+                        </ul>
+
+                        <h2>Conclusion & Key Takeaways</h2>
+                        <p>Object detection is a fundamental capability for many modern applications, from consumer
+                            electronics to advanced driving assistance systems. While the field has made incredible
+                            progress, there is still work to be done to reach human-level performance, especially in
+                            adapting to new environments. This project was a rewarding journey that solidified my skills
+                            and left me excited to continue exploring the vast potential of computer vision. </p>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="currentYear"></span> All rights reserved - Khalid Abd Elhamid</p>
+    </footer>
+
+    <script>
+        if (document.getElementById('currentYear')) {
+            document.getElementById('currentYear').textContent = new Date().getFullYear();
+        }
+    </script>
+    <script src="../scripts.js"></script>
+</body>
+
+</html>

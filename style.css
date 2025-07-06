@@ -385,6 +385,9 @@ header nav ul li a.active::after {
 .project-links {
     margin-top: auto;
     padding-top: 1rem;
+    display: flex;
+    gap: 10px;
+    flex-wrap: nowrap;
 }
 
 /* Skills Section */
@@ -727,8 +730,8 @@ body.dark-mode .theme-toggle-btn .fa-moon {
     
 }
 /* Add this to your style.css for better button icons */
-.btn-secondary i {
-    margin-right: 8px; /* Adds a small space between the icon and the text */
+.btn-secondary {
+    padding: 8px 15px;
 }
 /* Fix for H1 font-size deprecation warning */
 section h1 {

@@ -275,6 +275,29 @@ header nav ul li a.active::after {
     margin-left: auto;
     margin-right: auto;
 }
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 2rem;
+}
+
+.hero-image-container {
+    flex-basis: 30%;
+    max-width: 250px;
+}
+
+.hero-image-container img {
+    width: 100%;
+    border-radius: 50%;
+    border: 5px solid var(--primary-color);
+    
+}
+
+.hero-content {
+    flex-basis: 60%;
+  
+}
 
 /* Buttons */
 .btn {
@@ -687,6 +710,20 @@ body.dark-mode .theme-toggle-btn .fa-moon {
     .skills-grid {
         grid-template-columns: 1fr;
     }
+
+        .hero-section {
+            flex-direction: column;
+            text-align: center;
+        }
+    
+        .hero-image-container {
+            order: -1;
+            margin-bottom: 2rem;
+        }
+    
+        .hero-content {
+            text-align: center;
+        }
     
 }
 /* Add this to your style.css for better button icons */
